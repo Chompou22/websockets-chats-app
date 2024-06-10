@@ -1,0 +1,4 @@
+dependency installation :
+    socket.io-client
+Key Concepts :
+    socket.on is used to listen for events emitted by the server through the socket connection.
