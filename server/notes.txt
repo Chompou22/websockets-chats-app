@@ -1,0 +1,10 @@
+dependency installation :
+    @nestjs/websockets @nestjs/platform-socket.io
+
+Key Concepts :
+    WebSocketGateway: This decorator marks the class as a WebSocket gateway.
+    SubscribeMessage: This decorator listens for specific events/messages from clients.
+    MessagesService: A service that contains the logic for handling messages (like saving to a database).
+    DTO (Data Transfer Object): Objects used to transfer data between the client and server.
+
+    socket.emit is used to send events from the client to the server over the WebSocket connection.
